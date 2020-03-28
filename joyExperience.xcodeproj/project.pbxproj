@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8579CD51242F9072002A2190 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579CD50242F9072002A2190 /* Group.png */; };
 		A9853FD5242CA8090036A79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD4242CA8090036A79A /* AppDelegate.swift */; };
 		A9853FD7242CA8090036A79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD6242CA8090036A79A /* SceneDelegate.swift */; };
 		A9853FD9242CA8090036A79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD8242CA8090036A79A /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8579CD50242F9072002A2190 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group.png; sourceTree = "<group>"; };
 		A9853FD1242CA8090036A79A /* joyExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joyExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9853FD4242CA8090036A79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9853FD6242CA8090036A79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		A9853FD3242CA8090036A79A /* joyExperience */ = {
 			isa = PBXGroup;
 			children = (
+				8579CD50242F9072002A2190 /* Group.png */,
 				A9853FD4242CA8090036A79A /* AppDelegate.swift */,
 				A9853FD6242CA8090036A79A /* SceneDelegate.swift */,
 				A9853FD8242CA8090036A79A /* ViewController.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9D68CEA242EC54A0078CDA6 /* SyukuriHidup.m4a in Resources */,
+				8579CD51242F9072002A2190 /* Group.png in Resources */,
 				A9853FE1242CA80A0036A79A /* LaunchScreen.storyboard in Resources */,
 				A9D68CED242EC6D40078CDA6 /* Morning 6_30 jungle.m4a in Resources */,
 				A9D68CE9242EC54A0078CDA6 /* SyukuriHidup2.m4a in Resources */,
