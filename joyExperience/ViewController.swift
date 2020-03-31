@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import AVFoundation
+
+var player: AVAudioPlayer?
 
 class ViewController: UIViewController {
     
@@ -23,7 +26,6 @@ class ViewController: UIViewController {
         var id: Int
         let title, imageUrl: String
     }
-    
-    
 }
+
 

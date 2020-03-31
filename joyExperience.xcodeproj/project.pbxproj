@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8579CD51242F9072002A2190 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579CD50242F9072002A2190 /* Group.png */; };
+		A9648423243311E200174BF0 /* nightForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9648421243311E100174BF0 /* nightForest.jpg */; };
+		A9648424243311E200174BF0 /* morningForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9648422243311E200174BF0 /* morningForest.jpg */; };
 		A9853FD5242CA8090036A79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD4242CA8090036A79A /* AppDelegate.swift */; };
 		A9853FD7242CA8090036A79A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD6242CA8090036A79A /* SceneDelegate.swift */; };
 		A9853FD9242CA8090036A79A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD8242CA8090036A79A /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		8579CD50242F9072002A2190 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group.png; sourceTree = "<group>"; };
+		A9648421243311E100174BF0 /* nightForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightForest.jpg; sourceTree = "<group>"; };
+		A9648422243311E200174BF0 /* morningForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morningForest.jpg; sourceTree = "<group>"; };
 		A9853FD1242CA8090036A79A /* joyExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joyExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9853FD4242CA8090036A79A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9853FD6242CA8090036A79A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9648425243311E600174BF0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A9648422243311E200174BF0 /* morningForest.jpg */,
+				A9648421243311E100174BF0 /* nightForest.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		A9853FC8242CA8090036A79A = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +155,7 @@
 		A9D68CE0242DC1F50078CDA6 /* Assets.xcassets */ = {
 			isa = PBXGroup;
 			children = (
+				A9648425243311E600174BF0 /* images */,
 				A9D68CEB242EC55D0078CDA6 /* natures */,
 				A9D68CE6242EC5160078CDA6 /* quotes */,
 				A9D68CE1242DC38C0078CDA6 /* rsz_output-onlinepngtools_1.png */,
@@ -271,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9648423243311E200174BF0 /* nightForest.jpg in Resources */,
+				A9648424243311E200174BF0 /* morningForest.jpg in Resources */,
 				A9D68CEA242EC54A0078CDA6 /* SyukuriHidup.m4a in Resources */,
 				8579CD51242F9072002A2190 /* Group.png in Resources */,
 				A9853FE1242CA80A0036A79A /* LaunchScreen.storyboard in Resources */,
