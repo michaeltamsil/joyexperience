@@ -19,5 +19,11 @@ class ViewController: UIViewController {
 
     }
     
+    struct Box {
+        var id: Int
+        let title, imageUrl: String
+    }
+    
+    
 }
 
