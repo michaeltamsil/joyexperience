@@ -65,7 +65,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.97592387570720218" blue="0.80971988477972445" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jHO-hT-3KJ"/>
                     </view>
                     <toolbarItems/>
@@ -185,7 +185,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.96082926537359681" blue="0.78980047492245464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="YRy-Mb-47Y"/>
                     </view>
                     <navigationItem key="navigationItem" title="natural sound" id="H23-P0-ban"/>
@@ -230,7 +230,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.94520657853149603" blue="0.79179099161550859" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="80U-yF-MVj"/>
                     </view>
                     <navigationItem key="navigationItem" title="quote sound" id="gdy-pM-Box"/>
@@ -246,7 +246,7 @@
                     <view key="view" contentMode="scaleToFill" id="WW2-vB-XBa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.95269578383315157" blue="0.75665495713510778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="iBc-J5-wcZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Initial Emotion" id="rX4-mZ-lnb" userLabel="Navigation Item">
@@ -273,7 +273,7 @@
                     <view key="view" contentMode="scaleToFill" id="h99-Zw-MSV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.94416799395132445" blue="0.8229444429676821" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="P5i-qE-ptj"/>
                     </view>
                     <navigationItem key="navigationItem" title="Notes" id="GUR-tj-8cU"/>
@@ -358,7 +358,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.9860957700775983" blue="0.7714452795180915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="OmX-bA-47j"/>
                     </view>
                     <toolbarItems/>
