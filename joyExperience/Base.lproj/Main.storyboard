@@ -10,7 +10,7 @@
         <!--Add Natural Sound-->
         <scene sceneID="hcV-Wb-tao">
             <objects>
-                <viewController id="UUp-Fm-iWx" customClass="addNaturalSound" sceneMemberID="viewController">
+                <viewController id="UUp-Fm-iWx" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EOz-gc-Usk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,7 +314,7 @@
         <!--Add Natural Sound-->
         <scene sceneID="vF0-zo-uyD">
             <objects>
-                <viewController id="iWC-US-5Ub" customClass="addNaturalSound" sceneMemberID="viewController">
+                <viewController id="iWC-US-5Ub" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BZx-Vd-nvm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
