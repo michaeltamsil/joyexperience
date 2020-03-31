@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Add Natural Sound-->
+        <!--View Controller-->
         <scene sceneID="hcV-Wb-tao">
             <objects>
                 <viewController id="UUp-Fm-iWx" sceneMemberID="viewController">
@@ -145,12 +145,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <textInputTraits key="textInputTraits"/>
                             </searchBar>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="white" translatesAutoresizingMaskIntoConstraints="NO" id="R9k-2d-0uf" customClass="UICollectionView">
-                                <rect key="frame" x="20" y="183" width="374" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="qcq-cn-eX0"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="vh4-sp-dOt"/>
-                            </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qpG-Ik-D7k">
                                 <rect key="frame" x="360" y="806" width="34" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -163,17 +157,6 @@
                                 <state key="normal" image="plus" catalog="system"/>
                                 <connections>
                                     <segue destination="UUp-Fm-iWx" kind="presentation" id="pnQ-aY-70F"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3wv-JP-MF2">
-                                <rect key="frame" x="360" y="88" width="38" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" image="person.fill" catalog="system">
-                                    <attributedString key="attributedTitle"/>
-                                </state>
-                                <connections>
-                                    <segue destination="0yH-O2-SrY" kind="show" id="yWI-VB-cGL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="center" semanticContentAttribute="spatial" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-3u-3AX">
@@ -192,6 +175,38 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="morningForest.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bcq-Qx-zci">
+                                <rect key="frame" x="20" y="201" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nightForest.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uKs-XQ-MeU">
+                                <rect key="frame" x="20" y="360" width="374" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0S-QJ-uce">
+                                <rect key="frame" x="23" y="201" width="371" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Morning Forest">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0yH-O2-SrY" kind="show" id="KgS-XT-zXn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxY-bS-dJS">
+                                <rect key="frame" x="23" y="360" width="371" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Night Forest">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0yH-O2-SrY" kind="show" id="SSK-0d-xhk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93124655040000004" blue="0.7407459636" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="YRy-Mb-47Y"/>
@@ -228,12 +243,6 @@
                                     <segue destination="rvK-qT-cSX" kind="show" id="BOw-Qd-0y8"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfP-u9-0eT">
-                                <rect key="frame" x="20" y="174" width="374" height="625"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <viewLayoutGuide key="contentLayoutGuide" id="w8D-5G-oXS"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="vJz-i3-gtc"/>
-                            </scrollView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DYh-hK-vpp">
                                 <rect key="frame" x="20" y="121" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -243,7 +252,7 @@
                         <color key="backgroundColor" red="1" green="0.93124655040000004" blue="0.7407459636" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="80U-yF-MVj"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Quote Sound" id="gdy-pM-Box"/>
+                    <navigationItem key="navigationItem" title="Quote Voice" id="gdy-pM-Box"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POj-zs-19X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -311,7 +320,7 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
         </scene>
-        <!--Add Natural Sound-->
+        <!--View Controller-->
         <scene sceneID="vF0-zo-uyD">
             <objects>
                 <viewController id="iWC-US-5Ub" sceneMemberID="viewController">
@@ -323,7 +332,7 @@
                                 <rect key="frame" x="20" y="12" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="...." id="q2M-Hy-Ngg">
+                                    <navigationItem title="Add Quote Voice" id="q2M-Hy-Ngg">
                                         <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Gra-qp-V1v" propertyAccessControl="none">
                                             <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </barButtonItem>
@@ -387,8 +396,12 @@
     <resources>
         <image name="Group.png" width="283" height="268"/>
         <image name="heart.fill" catalog="system" width="64" height="54"/>
-        <image name="person.fill" catalog="system" width="64" height="60"/>
+        <image name="morningForest.jpg" width="5136" height="7704"/>
+        <image name="nightForest.jpg" width="6016" height="4000"/>
         <image name="plus" catalog="system" width="64" height="56"/>
         <image name="square.and.arrow.up.fill" catalog="system" width="56" height="64"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SSK-0d-xhk"/>
+    </inferredMetricsTieBreakers>
 </document>
