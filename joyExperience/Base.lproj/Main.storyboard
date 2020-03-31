@@ -19,9 +19,13 @@
                                 <rect key="frame" x="20" y="12" width="374" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="add natural sound" id="Fao-3c-uD6">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Quz-xs-2Ct" propertyAccessControl="none"/>
-                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="lmc-LM-4Zb"/>
+                                    <navigationItem title="Add Nature Sound" id="Fao-3c-uD6">
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Quz-xs-2Ct" propertyAccessControl="none">
+                                            <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="lmc-LM-4Zb">
+                                            <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -148,19 +152,14 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="vh4-sp-dOt"/>
                             </scrollView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.arrow.up.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="qpG-Ik-D7k">
-                                <rect key="frame" x="360" y="806" width="34" height="32"/>
+                                <rect key="frame" x="360" y="806" width="34" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-lE-6o6">
-                                <rect key="frame" x="16" y="834" width="74" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NOn-gV-5Rq">
                                 <rect key="frame" x="16" y="88" width="38" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="plus" catalog="system"/>
                                 <connections>
                                     <segue destination="UUp-Fm-iWx" kind="presentation" id="pnQ-aY-70F"/>
@@ -169,6 +168,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3wv-JP-MF2">
                                 <rect key="frame" x="360" y="88" width="38" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="person.fill" catalog="system">
                                     <attributedString key="attributedTitle"/>
                                 </state>
@@ -177,18 +177,26 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="center" semanticContentAttribute="spatial" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0eB-3u-3AX">
-                                <rect key="frame" x="20" y="809" width="34" height="33"/>
+                                <rect key="frame" x="37" y="807" width="56" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="7"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button" image="heart.fill" catalog="system">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
                                 </state>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zLE-lE-6o6">
+                                <rect key="frame" x="16" y="841" width="77" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.93124655040000004" blue="0.7407459636" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="YRy-Mb-47Y"/>
                     </view>
-                    <navigationItem key="navigationItem" title="natural sound" id="H23-P0-ban"/>
+                    <navigationItem key="navigationItem" title="Nature Sound" id="H23-P0-ban"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kSL-F7-MQA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -205,6 +213,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="94n-Zt-QCa">
                                 <rect key="frame" x="20" y="88" width="38" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" image="plus" catalog="system"/>
                                 <connections>
                                     <segue destination="iWC-US-5Ub" kind="presentation" id="SGA-GF-jnQ"/>
@@ -213,6 +222,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cKc-TF-60F">
                                 <rect key="frame" x="336" y="91" width="58" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="rvK-qT-cSX" kind="show" id="BOw-Qd-0y8"/>
@@ -233,7 +243,7 @@
                         <color key="backgroundColor" red="1" green="0.93124655040000004" blue="0.7407459636" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="80U-yF-MVj"/>
                     </view>
-                    <navigationItem key="navigationItem" title="quote sound" id="gdy-pM-Box"/>
+                    <navigationItem key="navigationItem" title="Quote Sound" id="gdy-pM-Box"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="POj-zs-19X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,6 +264,7 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Jo6-zm-0hu" userLabel="Next">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <segue destination="S5S-vS-1h3" kind="show" id="kf8-My-qnZ"/>
@@ -313,8 +324,12 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="...." id="q2M-Hy-Ngg">
-                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Gra-qp-V1v" propertyAccessControl="none"/>
-                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="A9C-mF-Hu7"/>
+                                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="Gra-qp-V1v" propertyAccessControl="none">
+                                            <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="A9C-mF-Hu7">
+                                            <color key="tintColor" red="0.22519152849999999" green="0.44544992989999999" blue="0.65540912389999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
