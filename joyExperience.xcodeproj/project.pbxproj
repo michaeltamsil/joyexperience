@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8579CD51242F9072002A2190 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579CD50242F9072002A2190 /* Group.png */; };
+		8579CDCB243459EA002A2190 /* student-colour-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579CDCA243459EA002A2190 /* student-colour-thumbnail.png */; };
+		8579CDCD24345B69002A2190 /* headphones-colour-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 8579CDCC24345B69002A2190 /* headphones-colour-thumbnail.png */; };
 		A9648423243311E200174BF0 /* nightForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9648421243311E100174BF0 /* nightForest.jpg */; };
 		A9648424243311E200174BF0 /* morningForest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A9648422243311E200174BF0 /* morningForest.jpg */; };
 		A9853FD5242CA8090036A79A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9853FD4242CA8090036A79A /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		8579CD50242F9072002A2190 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Group.png; sourceTree = "<group>"; };
+		8579CDCA243459EA002A2190 /* student-colour-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "student-colour-thumbnail.png"; sourceTree = "<group>"; };
+		8579CDCC24345B69002A2190 /* headphones-colour-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headphones-colour-thumbnail.png"; sourceTree = "<group>"; };
 		A9648421243311E100174BF0 /* nightForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nightForest.jpg; sourceTree = "<group>"; };
 		A9648422243311E200174BF0 /* morningForest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morningForest.jpg; sourceTree = "<group>"; };
 		A9853FD1242CA8090036A79A /* joyExperience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = joyExperience.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,6 +159,8 @@
 		A9D68CE0242DC1F50078CDA6 /* Assets.xcassets */ = {
 			isa = PBXGroup;
 			children = (
+				8579CDCC24345B69002A2190 /* headphones-colour-thumbnail.png */,
+				8579CDCA243459EA002A2190 /* student-colour-thumbnail.png */,
 				A9648425243311E600174BF0 /* images */,
 				A9D68CEB242EC55D0078CDA6 /* natures */,
 				A9D68CE6242EC5160078CDA6 /* quotes */,
@@ -288,11 +294,13 @@
 				A9648423243311E200174BF0 /* nightForest.jpg in Resources */,
 				A9648424243311E200174BF0 /* morningForest.jpg in Resources */,
 				A9D68CEA242EC54A0078CDA6 /* SyukuriHidup.m4a in Resources */,
+				8579CDCD24345B69002A2190 /* headphones-colour-thumbnail.png in Resources */,
 				8579CD51242F9072002A2190 /* Group.png in Resources */,
 				A9853FE1242CA80A0036A79A /* LaunchScreen.storyboard in Resources */,
 				A9D68CED242EC6D40078CDA6 /* Morning 6_30 jungle.m4a in Resources */,
 				A9D68CE9242EC54A0078CDA6 /* SyukuriHidup2.m4a in Resources */,
 				A9D68CEF242EC72C0078CDA6 /* Morning 4 AM backyard.m4a in Resources */,
+				8579CDCB243459EA002A2190 /* student-colour-thumbnail.png in Resources */,
 				A9853FDC242CA8090036A79A /* Main.storyboard in Resources */,
 				A9D68CE2242DC38C0078CDA6 /* rsz_output-onlinepngtools_1.png in Resources */,
 			);
